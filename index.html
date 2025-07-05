@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Moussa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+     body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f3f4f6;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #d1d5db;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .projet {
+      background: white;
+      border-left: 5px solid #3b82f6;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .projet h2 {
+      margin-top: 0;
+    }
+
+    .projet img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-top: 1rem;
+    }
+
+    .projet a {
+      color: #3b82f6;
+      text-decoration: none;
+    }
+
+    .contact {
+      background: #e5e7eb;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+
+    .contact p {
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6b7280;
+      margin: 2rem 0 1rem;
+    }
+  </style>
+</head>
+<body>
+    <h1> Salut moi c'est Moussa</h1>
+    <p>Je développe des <strong>scripts Python</strong> et des <strong>bots Telegram/Discord</strong> pour automatiser vos tâches et collecter vos données éfficacement.</p>
+    <h2>Projets récents</h2>
+    <div class="container">
+    <section class="projet">
+    <h3> Bot Telegram météo</h3>
+    <p>Un bot qui répond aux commandes comme <code>/meteo Paris</code> avec la météo actuelle.</p>
+    <p><a href="https://github.com/moussa-codes/bot-telegram-meteo">Voir sur GitHub</a></p>
+    <img src="media/meteo-demo.gif" alt="Bot Telegram Météo">
+    </section>
+
+   <section class="projet">
+    <h3> Scraper automatiquement des boulangeries à Marseille </h3>
+    <p>Scraping de sites d'annonces pour extraire les coordonées (nom,adresse, numéros) de plus 150 boulangeries à Marseille dans un fichier CSV.</p>
+    <p><a href="https://github.com/moussa-codes/scraper-immo">Voir sur GitHub</a></p>
+   <img src="media/scraper-contacts.gif" alt="Scraper demo">
+    </section>
+
+  <section class="projet">
+    <h3> Bot Discord simple</h3>
+    <p>Bot qui permet de connaitre son nom , son créateur et le nombre de serveurs sur lequel il est présent.</p>
+    <p><a href="https://github.com/moussa-codes/bot-discord-alertes">Voir sur GitHub</a></p>
+    <img src="media/discord-demo.gif" alt="Bot Discord ">
+  </section>
+
+  <div class="contact">
+   <h2> Contact</h2>
+    <p><strong>Email :</strong> moussa-codes@gmail.com</p>
+  </div>
+    </div>
+</body>
+</html>
